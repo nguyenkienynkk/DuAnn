@@ -4,29 +4,19 @@
  */
 package com.raven.form;
 
-import com.raven.form.attribute.CustomPanel;
 import com.raven.main.Main;
-import com.raven.model.ModelNhanVien;
-import com.raven.repositories.impl.NhanVienRepositoryImpl;
 import com.raven.services.NhanVienService;
 import com.raven.services.UserService;
 import com.raven.services.impl.NhanVienServiceImpl;
 import com.raven.services.impl.UserServiceIplm;
 import com.raven.utils.Auth;
-import com.raven.viewmodels.NhanVienResponse;
 import com.raven.viewmodels.User;
 import java.awt.Color;
-import java.awt.GradientPaint;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import org.apache.commons.math3.analysis.function.Signum;
 
 public class Login extends javax.swing.JFrame {
     NhanVienService sv = new NhanVienServiceImpl();
@@ -34,8 +24,8 @@ public class Login extends javax.swing.JFrame {
         initComponents();
         txtUserName.setBackground(new Color(0, 0, 0, 1));
         txtPassWord.setBackground(new Color(0, 0, 0, 1));
-        txtUserName.setText("0973728562");
-        txtPassWord.setText("kiennk");
+        txtUserName.setText("0973728589");
+        txtPassWord.setText("LGdqzAAdv");
         UserService us = new UserServiceIplm();
         
     }

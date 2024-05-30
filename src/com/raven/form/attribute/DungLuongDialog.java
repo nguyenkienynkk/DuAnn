@@ -5,22 +5,11 @@
 package com.raven.form.attribute;
 
 import com.raven.form.SanPham;
-import com.raven.services.impl.CpuServiceImpl;
 import com.raven.services.impl.DungLuongServiceImpl;
-import com.raven.viewmodels.CpuResponse;
 import com.raven.viewmodels.DungLuongResponse;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.List;
-import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import jdk.jfr.consumer.EventStream;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  *

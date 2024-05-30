@@ -6,22 +6,11 @@ package com.raven.form.attribute;
 
 import com.raven.form.SanPham;
 import com.raven.services.ManHinhService;
-import com.raven.services.impl.GpuServiceImpl;
 import com.raven.services.impl.ManHinhServiceImpl;
-import com.raven.viewmodels.GpuResponse;
 import com.raven.viewmodels.ManHinhResponse;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.List;
-import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import jdk.jfr.consumer.EventStream;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 /**
  *

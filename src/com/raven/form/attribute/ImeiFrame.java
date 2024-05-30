@@ -4,7 +4,6 @@
  */
 package com.raven.form.attribute;
 
-import com.raven.form.SanPham;
 import com.raven.services.ImeiService;
 import com.raven.services.impl.ImeiServiceImpl;
 import com.raven.viewmodels.ImeiResponse;
